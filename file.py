@@ -1,3 +1,8 @@
+##Documentation
+# name : Yohjit Chopra
+# Roll No. 2110994798
+# Task 5.2C
+
 from tkinter import *
 import tkinter.font
 from gpiozero import LED
@@ -53,5 +58,3 @@ ledbutton3.grid(row = 2, column = 1)
 closebutton = Radiobutton(win, text = "EXIT", font = Font,command = close, bg = 'bisque2', height = 1, width = 24)
 closebutton.grid(row = 3, column = 1)
 
-##ledbutton = Radiobutton(win, text = "turn the RED led on", font = Font, command = ledtoggle(led_red),bg = 'bisque2', height = 1, width = 24)
-##ledbutton.grid(row = 3, column = 1)
